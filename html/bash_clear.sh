@@ -1,0 +1,1 @@
+sudo lxc-attach -n my-container -- /home/ubuntu/test/clear.sh $1 $2
