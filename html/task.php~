@@ -24,14 +24,14 @@ if($num == -1)
 	<head>
         <meta charset="utf-8">	
 		<title>Посвягафитфия2015</title>
-		<link rel="stylesheet" href="style_with_borders.css">		
+		<link rel="stylesheet" href="style.css">		
 	</head>
 	
 	<body>
-	<p size=5 style="margin: 2cm 8cm 3cm 8cm; font-size:120%">
+	<p size=5 style="margin: 2cm 8cm 3cm 8cm; font-size:150%">
 	<?php
 		echo file_to_text(get_task_num($num));
 	?>
-	</p>
+	</font>
 </body>
 </html>

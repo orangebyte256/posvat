@@ -24,7 +24,7 @@ if($_SESSION['status'] != "success")
 		</div>
 		<script src="Animator.js" type="text/javascript" encoding="UTF-8"></script>
 		<script type="text/javascript">
-		var animator = new Animator("Что-же, Вы молодцы! Приходите 28 ноября в 12.00 к ... и познакомитесь, с Чеширским Котом и остальными)", 75, "text", "text_link");
+		var animator = new Animator("Что же, Вы - молодцы! Вы преодолели первый этап и сможете приступить ко второму. Приходите 28 Ноября в 15:00 к новому СК! Там вас ждут офигенные призы, в том числе заветный АВТОМАТ! ", 50, "text", "text_link");
 		animator.run(function(){});		
 		</script>
 		<canvas id="canvas"></canvas>

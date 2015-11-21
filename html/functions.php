@@ -84,4 +84,10 @@ function get_task_num($id)
 	$task_count = 5;
 	return $id % $task_count;
 }
+
+function logging($file)
+{
+	file_put_contents("./log.txt", $file . " " . $_SERVER['REMOTE_ADDR'] . "  " . date('l jS \of F Y h:i:s A') . "\n", FILE_APPEND);	
+}
+
 ?>

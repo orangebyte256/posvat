@@ -2,8 +2,6 @@
 
 include 'functions.php';
 
-logging("test.php");
-
 if($_POST["first"] == "" || $_POST["second"] == "" || $_POST["task"] == "")
 	header("Location: index.php");
 
