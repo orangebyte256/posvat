@@ -52,7 +52,7 @@ if($_GET["second"] == $_GET["first"])
 		</div>
 		<center>
 		<form action="test.php" enctype="multipart/form-data" method="POST">
-		<input type="file" name="datafile" size="400">
+		<input type="file" name="datafile" size="40">
 		<input type="hidden" name="first" value=<?php echo $_GET["first"]; ?>>
 		<input type="hidden" name="second" value=<?php echo $_GET["second"]; ?>>
 		<input type="hidden" name="task" value=<?php echo get_task_num($_GET["first"]); ?>>
